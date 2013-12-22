@@ -1,0 +1,28 @@
+#schedule {
+	margin: 0, auto;
+}
+
+#schedule .panel{
+	width: 250px;
+}
+
+#schedule #schedule-box{
+	padding-left: 250px;
+}
+
+.class {
+	padding-bottom: 5px;
+}
+.bs-sidenav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 0 #fff;
+	background-color: #f7f5fa;
+	border-radius: 5px;
+}
+
+bs-sidebar.affix{
+	width: 213px;
+	position: fixed;
+	top: 80px;
+}
