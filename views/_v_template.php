@@ -24,7 +24,7 @@
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span></button> 
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="https://www.facebook.com/SaantiYoga">
                     <img id="saantilogo" src="/images/SaantiLogo.jpg" alt="">Saanti Yoga</a>
                 </div>
 

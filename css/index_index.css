@@ -1,0 +1,34 @@
+#notesDiv {
+	padding: 30px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 200;
+	color: inherit;
+	background-color: #eeeeee;
+	border-radius: 6px;
+	padding-top: 24px;
+	padding-bottom: 12px;
+	min-width: 600px
+
+}
+#BrandBox{
+	background-image: url("/images/zen1.jpg");
+	background-size: 940px 360px;
+	padding-bottom: 50px;
+	border-radius: 6px;
+}
+
+#introDiv{
+	width: 350px;
+	padding: 10px 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#zenImage{
+	min-width: 780px;
+	height: 350px;
+	padding-bottom: 25px;
+	border-radius: 6px;
+	float: none;
+}
