@@ -5,7 +5,7 @@
     <title><?php if(isset($title)) echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Controller Specific JS/CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css"><!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/css/Main.css"><!-- Bootstrap -->
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css"><?php if(isset($client_files_head)) echo $client_files_head; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">
 </script>
