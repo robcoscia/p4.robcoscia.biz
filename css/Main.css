@@ -61,3 +61,7 @@ code {
 	height: 20px;
 	padding-right: 4px;
 }
+
+.navbar .nav {
+     overflow: visible;
+ }

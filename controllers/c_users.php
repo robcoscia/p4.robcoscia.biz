@@ -145,7 +145,7 @@ class users_controller extends base_controller {
 	public function p_signup() {
 		# Validation
 		$validRequest = true;
-/*		if(!isset($post['first_name'])){
+		/*if(!isset($post['first_name'])){
 			$validRequest = false;
 		}
 		if(!isset($post['last_name'])){

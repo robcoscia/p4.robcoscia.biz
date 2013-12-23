@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Controller Specific JS/CSS -->
     <link rel="stylesheet" type="text/css" href="/css/Main.css"><!-- Bootstrap -->
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css"><?php if(isset($client_files_head)) echo $client_files_head; ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js" type="text/javascript">
 </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js" type="text/javascript">
 </script>
 </head>
 
@@ -32,40 +32,38 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="/index/index">Home</a></li>
 
-                        <li><a href="/classes/display">Schedule</a></li><!-- ADmin User -->
+                        <li><a href="/classes/display">Schedule</a></li>
                     <?php if($user and $user->role == "ADMIN"): ?>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
 
                             <ul class="dropdown-menu">
                                 <li><a href="/classes/add">Add</a></li>
-
                                 <li><a href="/index/underconstruction">Update</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teachers</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teachers<b class="caret"></b></a>
 
                             <ul class="dropdown-menu">
                                 <li><a href="/teachers/add">Add</a></li>
-
                                 <li><a href="/index/underconstruction">Update</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Users</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Users<b class="caret"></b></a>
 
                             <ul class="dropdown-menu" >
-                                <li><a href="/teachers/add">Add</a></li>
+                                <li><a href="/index/underconstruction">Add</a></li>
                                 <li><a href="/index/underconstruction">Edit</a></li>
                             </ul>
 						</li>
+						
                         <li class="dropdown">
-                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous</a>
-
+                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/index/underconstruction">Edit Days</a></li>
                             </ul>
@@ -100,7 +98,7 @@
             </div>
         </div>
     </footer><!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js" type="text/javascript">
+    <script src="/js/bootstrap.js" type="text/javascript">
 </script><?php if(isset($client_files_body)) echo $client_files_body; ?>
 </body>
 </html>

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 22, 2013 at 12:46 PM
+-- Generation Time: Dec 22, 2013 at 09:49 PM
 -- Server version: 5.5.29
 -- PHP Version: 5.4.10
 
@@ -151,15 +151,16 @@ CREATE TABLE `users` (
   `email` varchar(255) NOT NULL,
   `role` varchar(5) NOT NULL DEFAULT 'USER',
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`user_id`, `created`, `modified`, `token`, `password`, `last_login`, `timezone`, `first_name`, `last_name`, `email`, `role`) VALUES
-(5, 1387658731, 1387658731, 'e77d69f86252668e3786ae28260c2c7debbb25ec', '8716c91a49635ccc7536068fb74b4e5f66932427', 0, 0, 'Robert', 'Coscia', 'robcoscia@comcast.net', 'ADMIN'),
-(6, 1387661902, 1387661902, '9b055b5d3a84b5ad2472308380aaf637bb82858d', '4c5bda712896518f2fc96c424d9a0243ade94286', 0, 0, 'Chelsea', 'Schmidt', 'cschmidt@gmail.com', 'USER');
+(5, 1387658731, 1387658731, '16e7c6c2e7dd411b777907257d634c7eeab02b51', '8716c91a49635ccc7536068fb74b4e5f66932427', 0, 0, 'Robert', 'Coscia', 'robcoscia@comcast.net', 'ADMIN'),
+(6, 1387661902, 1387661902, '9b055b5d3a84b5ad2472308380aaf637bb82858d', '4c5bda712896518f2fc96c424d9a0243ade94286', 0, 0, 'Chelsea', 'Schmidt', 'cschmidt@gmail.com', 'USER'),
+(9, 1387766801, 1387766801, '5414d53f7678d5685a969b5f9104bee1bdbc4f8d', '4c5bda712896518f2fc96c424d9a0243ade94286', 0, 0, 'admin', 'admin', 'admin@gmail.com', 'ADMIN');
 
 --
 -- Constraints for dumped tables
