@@ -1,0 +1,43 @@
+body {
+	background-color: #eee;
+}
+
+.form-addclass {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-addclass .form-addclass-heading,
+.form-addclass .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-addclass .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-addclass .form-control:focus {
+	z-index: 2;
+}
+
+.form-addclass input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form-addclass select{
+	padding-left: 30px;
+	height: 3.214px;
+}
+
+.form-addclass label{
+	padding-right: 30px;
+}

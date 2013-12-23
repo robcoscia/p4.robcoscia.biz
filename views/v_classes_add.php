@@ -1,5 +1,5 @@
 <div class="AddClassDiv">
-	<form id="AddClassForm" method="POST" action="/classes/p_add">
+	<form id="AddClassForm" class="form-addclass" role="form" method="POST" action="/classes/p_add">
 		<br>
 		
 		<label for="class_type_id" class="FormLabels">Type:</label>
@@ -30,22 +30,22 @@
 		<br>
 		
 		<label for="start_time" class="FormLabels">Start Time:</label>
-		<input type="time" class="AddInput" id="start_time" name="start_time" />
+		<input type="time" class="form-control" class="AddInput" id="start_time" name="start_time" value="17:00" required/>
 		<br>
 		<br>
 		
 		<label for="end_time" class="FormLabels">End Time:</label>
-		<input type="time" class="AddInput" id="end_time" name="end_time" />
+		<input type="time" class="form-control" class="AddInput" id="end_time" name="end_time" value="18:00" required/>
 		<br>		
 		<br>
 		
 		<label for="description" class="FormLabels">Description:</label>
-		<input type="text" class="AddInput" id="description" name="description" />
+		<input type="text" class="form-control" class="AddInput" id="description" name="description" required/>
 		<br>
 		<br>
 		
 		<div class="ButtonDiv">
-			<input type="submit" class="SubmitButton" value="Save" />
+			<input type="submit" class="SubmitButton" value="Add" class="btn btn-lg btn-primary btn-block"/>
 		</div>
 		<br>
 		<br>	

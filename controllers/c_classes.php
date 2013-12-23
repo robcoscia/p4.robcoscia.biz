@@ -10,7 +10,7 @@ class classes_controller extends base_controller {
 	}
 
 	/*-------------------------------------------------------------------------------------------------
-	 Allows user to add a post
+	 Allows user to add a class
 	-------------------------------------------------------------------------------------------------*/
 	public function add() {
 	
@@ -22,10 +22,10 @@ class classes_controller extends base_controller {
 		# Setup view
 		$this->template->content = View::instance('v_classes_add');
 
-		$this->template->title   = "New Class";
+		$this->template->title   = "Add Class";
 
-		#$client_files_head = array("/css/shouts.css", "/css/posts_add.css");
-		#$this->template->client_files_head = Utils::load_client_files($client_files_head);
+		$client_files_head = array("/css/classes_add.css");
+		$this->template->client_files_head = Utils::load_client_files($client_files_head);
 
 		#$client_files_body = array("/js/ElementValidation.js", "/js/shout_out_utils.js");
 		#$this->template->client_files_body = Utils::load_client_files($client_files_body);
