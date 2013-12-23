@@ -1,5 +1,5 @@
 	<div class="" id="schedule" data-spy="scroll" data-target=".navbar-schedule">
-		<div class="bs-sidebar hidden-print affix navbar-schedule" role="complimentry">	
+		<div class="bs-sidebar hidden-print affix navbar-schedule" >	
 		    <ul class="nav bs-sidenav">
 				  <li class="active"><a href="#Monday">Monday</a></li>
 				  <li><a href="#Tuesday">Tuesday</a></li>
@@ -11,7 +11,7 @@
 		    </ul>
 		</div>
 		
-		<div id="schedule-box" role="main" id="Monday">
+		<div id="schedule-box" role="main" >
 			<?php foreach($days as $day): ?>
 				<div id="<?php echo $day['long_name']?>">
 				    <div class="panel panel-default" >
