@@ -45,7 +45,7 @@
 		<br>
 		
 		<div class="ButtonDiv">
-			<input type="submit" class="SubmitButton" value="Add" class="btn btn-lg btn-primary btn-block"/>
+			<input type="submit" value="Add" class="btn btn-lg btn-primary btn-block"/>
 		</div>
 		<br>
 		<br>	
