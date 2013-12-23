@@ -24,8 +24,8 @@ class teachers_controller extends base_controller {
 
 		$this->template->title   = "Add Teacher";
 
-		#$client_files_head = array("/css/shouts.css", "/css/posts_add.css");
-		#$this->template->client_files_head = Utils::load_client_files($client_files_head);
+		$client_files_head = array("/css/teachers_add.css");
+		$this->template->client_files_head = Utils::load_client_files($client_files_head);
 
 		#$client_files_body = array("/js/ElementValidation.js", "/js/shout_out_utils.js");
 		#$this->template->client_files_body = Utils::load_client_files($client_files_body);

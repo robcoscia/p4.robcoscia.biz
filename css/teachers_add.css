@@ -1,0 +1,43 @@
+body {
+	background-color: #eee;
+}
+
+.form-addteacher {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-addteacher .form-addteacher-heading,
+.form-addteacher .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-addteacher .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-addteacher .form-control:focus {
+	z-index: 2;
+}
+
+.form-addteacher input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form-addteacher select{
+	padding-left: 30px;
+}
+
+.form-addteacher label{
+	padding-right: 30px;
+}
+
