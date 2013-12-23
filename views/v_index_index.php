@@ -22,6 +22,4 @@
 		<p>- Namaste -...</p>
 	</div>
 	
-	<div id="introDiv">
-	</div>
 </div>
